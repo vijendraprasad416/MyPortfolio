@@ -1,0 +1,408 @@
+ 
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #2563eb;
+    font-size: 40px;
+}
+
+h2 {
+    color: #1e293b;
+}
+
+p {
+    color: #475569;
+    font-size: 18px;
+}
+
+
+
+.profile-card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    margin: 40px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+.profile-card h1 {
+    color: blue;
+}
+
+.profile-card button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.profile-card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    margin: 40px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+.profile-card h1 {
+    color: blue;
+}
+
+.profile-card button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.about {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about p {
+    line-height: 1.8;
+}
+
+.skills {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #cccccc;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+
+
+.projects {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+.project-card h3 {
+    color: #2563eb;
+}
+
+.project-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+
+
+
+.contact {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+.contact textarea {
+    min-height: 100px;
+}
+
+.contact button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+/* Make website responsive on mobile */
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .profile-card {
+        width: auto;
+        max-width: 300px;
+        margin: 25px auto;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .skill-card {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .contact {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .profile-card {
+        width: auto;
+        max-width: 300px;
+        margin: 25px auto;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-card {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .contact {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+.navbar {
+    background-color: #2563eb;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+
+
+.footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+
+
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 20px;
+}
+
+
+
+
+/* Button Hover Effect */
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
+
+/* Project Card Hover Effect */
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #bdbdbd;
+}
+
+/* Skill Card Hover Effect */
+.skill-card {
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+
+}
+
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.tech-tags span {
+    background-color: #dbeafe;
+    color:#2563eb;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.project-status {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px 12px;
+    background-color: #fef3c7;
+    color: #92400e;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
